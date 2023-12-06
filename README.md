@@ -3,6 +3,16 @@ Convenience utility to create interpolated 2d heatmaps.
 Creates a two-dimensional color-coded "heat map" plot on a matplotlib axis from a pandas DataFrame. The API is
 designed to mimic seaborn functions.
 
+## Installation
+Install via pip:
+```
+pip install mplheatmap
+```
+or clone the repository and run:
+```
+python -m setup.py
+```
+
 ## Example usage
 
 Suppose we have a pandas Dataframe `df`, which contains a response variable in the columns `z` as a function
