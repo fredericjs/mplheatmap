@@ -15,6 +15,9 @@ as a function of `x` and `y` in a rectangular space.
                  zlabel='z-variable (unit)', cmap='jet', show_points=True)
     ax.figure.savefig('test.png', dpi=300, bbox_inches='tight')
 
+![example](https://github.com/fredericjs/mplheatmap/assets/63259596/5e44ad19-ae95-42d4-b5d5-c486337129f3)
+
+
 ## Docs
 The following parameters are accepted by `heatmap`:
 
